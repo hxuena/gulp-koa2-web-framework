@@ -11,11 +11,11 @@
 
 
 #### 3. 启动
-- npm run server:dev  //编译node后台文件
-- npm run server:lint  //检查node后台文件代码
+- npm run server:dev  //编译node后端文件
+- npm run server:lint  //检查node后端文件代码
 - npm run server:prod //上线时执行
 
-- npm run start:dev  //启动启动文件 app.js
+- npm run start:dev  //启动文件 app.js
 
 - 默认端口号：
   8081 开发环境 ，
