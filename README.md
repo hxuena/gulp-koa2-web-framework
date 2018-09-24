@@ -1,7 +1,7 @@
 ### 基于 gulp 和 Koa2 的前端自动化开发架构（一）
-#### 1.概要
+#### 1. 概要
 基于 gulp 和 Koa2 的前端自动化开发架构。
-#### 2.实现的功能
+#### 2. 实现的功能
 - 自动化编译及检测后端文件 gulp-watch
 - 错误中间件处理 middleware
 - 文件说明 jsdoc
@@ -10,7 +10,7 @@
 - 后端代码自动化检查 gulp-eslint
 
 
-#### 启动步骤
+#### 3.启动步骤
 - npm run server:dev  //编译node后台文件
 - npm run server:lint  //检查node后台文件代码
 - npm run server:prod //上线时执行
