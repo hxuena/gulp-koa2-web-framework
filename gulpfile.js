@@ -14,7 +14,7 @@ gulp.task('builddev', () => {
       .pipe(babel({
         //关闭外部的babelrc
         babelrc: false,
-        "plugins": ["transform-es2015-modules-commonjs"]
+        "plugins": ["transform-es2015-modules-commonjs", "transform-decorators-legacy"]
       }))
       .pipe(gulp.dest('dist'))
   })
@@ -25,7 +25,7 @@ gulp.task('buildprod', () => {
     .pipe(babel({
       babelrc: false,
       ignore: ["./src/nodeui/config/*.js"],
-      "plugins": ["transform-es2015-modules-commonjs"]
+      "plugins": ["transform-es2015-modules-commonjs", "transform-decorators-legacy"]
     }))
     .pipe(gulp.dest('dist'))
 })

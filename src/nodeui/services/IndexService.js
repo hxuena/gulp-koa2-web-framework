@@ -1,4 +1,3 @@
-import { resolve, reject } from "any-promise"
 
 /**
  * @fileOverview 实现Index数据模型
@@ -8,7 +7,7 @@ import { resolve, reject } from "any-promise"
  * IndexModle类 生成一段异步数据
  * @class
  */
-export default class IndexModle {
+export default class IndexService {
     /**
      * @constructor
      * @param {string} app koa2上下文
