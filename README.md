@@ -10,7 +10,7 @@
 - 后端代码自动化检查 gulp-eslint
 
 
-#### 3.启动步骤
+#### 3. 启动
 - npm run server:dev  //编译node后台文件
 - npm run server:lint  //检查node后台文件代码
 - npm run server:prod //上线时执行
