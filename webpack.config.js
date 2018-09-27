@@ -37,7 +37,7 @@ let webpackConfig = {
   entry:_entry,
   module:{
     rules:[{
-      test:/\.ts?￥/,
+      test:/\.ts?$/,
       use:'happypack/loader?id=happyTs'
     }]
   },
